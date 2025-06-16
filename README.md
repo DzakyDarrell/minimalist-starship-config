@@ -1,6 +1,6 @@
 # Zaky's Custom Starship Prompt
 
-A visually enhanced and emoji-powered [Starship](https://starship.rs) prompt configuration file for Linux terminal, this preset blends productivity with aesthetics using bold icons, custom colors, and clear prompts.
+A visually enhanced and emoji-powered [Starship](https://starship.rs) prompt configuration file for Linux terminal, this preset blends minimalistic using bold icons, custom colors, and clear prompts.
 
 ## Features
 
