@@ -9,12 +9,10 @@ A visually enhanced and emoji-powered [Starship](https://starship.rs) prompt con
   - Directory (with emoji-based folder names)
   - Command execution time
   - Success/Error indicators
-  - Custom Color Palette:
+  - Custom Color Palette
   - Cyan blue highlights
-  - Bright green/red prompt symbols
+  - Green/red prompt symbols
   - Custom text & accent colors
-  - Directory Shortcuts:
-  - `Documents → 󰈙`, `Downloads → `, `Music → 󰝚`, etc.
   - Optimized for terminal eye-candy AND productivity!
 
 ## Requirements
