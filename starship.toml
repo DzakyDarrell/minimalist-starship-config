@@ -1,0 +1,58 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+add_newline = true
+
+format = """
+$os\
+$hostname\
+$username\
+$directory\
+$cmd_duration\
+$line_break$character"""
+
+palette = 'dzaky_palettes'
+
+[palettes.dzaky_palettes]
+color_red = '#ff0000'
+color_green = '#00ff04'
+color_blue = '#03f4fc'
+color_yellow = '#ffb300'
+color_text = '#ff5c26'
+
+[os]
+disabled = false
+format = '[](color_blue)[ ](color_yellow)[$name](bold white)[ ](color_blue)'
+
+[hostname]
+disabled = false
+ssh_only = false
+format = '[](color_blue)[ ](color_yellow)[$hostname](bold white)[ ](color_blue)'
+
+[username]
+show_always = true
+format = '[](color_blue)[ ](color_yellow)[$user](bold white)[ ](color_blue)'
+
+[directory]
+format = "[](color_blue)[ ](color_yellow)[$path](italic white)[ ](color_blue)"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = "󰝚 "
+"Pictures" = " "
+"Developer" = "󰲋 "
+
+[cmd_duration]
+disabled = false
+min_time = 1000
+format = '[ $duration ](italic bold dimmed white)'
+
+[line_break]
+disabled = false
+
+[character]
+disabled = false
+success_symbol = '[](color_green)'
+error_symbol = '[](color_red)'
